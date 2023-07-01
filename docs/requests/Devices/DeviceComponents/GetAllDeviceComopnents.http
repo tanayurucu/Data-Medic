@@ -1,0 +1,1 @@
+GET https://localhost:7274/api/v1/devices/53e99d82-9976-44be-9581-709463e0b71f/components/all

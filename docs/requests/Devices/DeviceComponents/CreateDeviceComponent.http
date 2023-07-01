@@ -1,0 +1,9 @@
+POST https://localhost:7274/api/v1/devices/0b2a4bf6-c805-4802-83e2-72569bed3708/components
+Content-Type: application/json
+
+{
+  "ComponentId": "81e40d66-24ae-4d71-aba8-6e52fb060811",
+  "IpAddress": "10.50.246.62",
+  "OperatingSystemId": "ef314ea4-cd31-4bd0-a9b8-65624917f5fe",
+  "ControlSystemId": "c476719a-ae09-41e5-835e-f97bacd4ea27"
+}

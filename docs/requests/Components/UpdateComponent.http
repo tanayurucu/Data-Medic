@@ -1,0 +1,6 @@
+PUT https://localhost:7274/api/v1/components/33f5ee1d-2a07-4c64-8ce9-4da5e7151396
+Content-Type: application/json
+
+{
+  "Name": "NC"
+}

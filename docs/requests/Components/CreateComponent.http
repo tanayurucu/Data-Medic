@@ -1,0 +1,6 @@
+POST https://localhost:7274/api/v1/components
+Content-Type: application/json
+
+{
+  "Name": "Camera2"
+}

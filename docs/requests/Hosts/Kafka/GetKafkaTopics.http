@@ -1,0 +1,1 @@
+GET https://localhost:7274/api/v1/hosts/0146b1ca-af81-4da1-b65f-0f6ca7f9af96/kafka/topics

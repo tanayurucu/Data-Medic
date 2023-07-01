@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-DataMedic.Worker-8E561B9C-7B7F-4BED-83C4-1015FF1B37E7</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Hangfire.AspNetCore" Version="1.8.0" />
+        <PackageReference Include="Hangfire.Core" Version="1.8.0" />
+        <PackageReference Include="Hangfire.SqlServer" Version="1.8.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DataMedic.Infrastructure\DataMedic.Infrastructure.csproj" />
+      <ProjectReference Include="..\DataMedic.Persistence\DataMedic.Persistence.csproj" />
+    </ItemGroup>
+</Project>

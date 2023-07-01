@@ -1,0 +1,16 @@
+POST https://localhost:7274/api/v1/sensors
+Content-Type: application/json
+
+{
+  "HostId": "0146b1ca-af81-4da1-b65f-0f6ca7f9af96",
+  "DeviceComponentId": "B3CB7EE2-59EC-4642-844A-E77289ED9BC6",
+  "Description": "",
+  "DeviceId": "0b2a4bf6-c805-4802-83e2-72569bed3708",
+  "SensorDetail": {
+    "Type": 1,
+    "TopicName": "BU2_CHIRON",
+    "TimeToLiveInSeconds": 10,
+    "IdentifierKey": "StationName",
+    "IdentifierValue": "BAZ"
+  }
+}

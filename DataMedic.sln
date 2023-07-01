@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2AD486CB-DB9D-4FD9-9A7C-8395AA0B02D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Application", "src\DataMedic.Application\DataMedic.Application.csproj", "{7AC95268-AD64-476C-9FB1-5C3D4A9633DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Contracts", "src\DataMedic.Contracts\DataMedic.Contracts.csproj", "{E6D80A12-B384-4248-A95C-C36BEB9F27BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Domain", "src\DataMedic.Domain\DataMedic.Domain.csproj", "{B7750A7F-47CD-4A54-81D3-83C1015D9093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Infrastructure", "src\DataMedic.Infrastructure\DataMedic.Infrastructure.csproj", "{F021FE29-EDE8-4BCD-AAFE-400C832D4FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Persistence", "src\DataMedic.Persistence\DataMedic.Persistence.csproj", "{707084AA-97A8-4E83-91D5-4A6089AF0925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Presentation", "src\DataMedic.Presentation\DataMedic.Presentation.csproj", "{D3F9BEE2-7F90-43F0-AD49-A11AB5CEE6BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B507638E-83E1-449F-8D33-BE24D42C1A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Architecture.Tests", "tests\DataMedic.Architecture.Tests\DataMedic.Architecture.Tests.csproj", "{4D640391-855A-48D5-A526-D2742099B93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Domain.Tests", "tests\DataMedic.Domain.Tests\DataMedic.Domain.Tests.csproj", "{A5B8B1DB-44E0-4089-B320-4F5061D46BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Web", "src\DataMedic.Web\DataMedic.Web.csproj", "{F5CBAFD7-3CCB-47EE-8C2D-78F83D2DAD14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Application.Tests", "tests\DataMedic.Application.Tests\DataMedic.Application.Tests.csproj", "{892A1E5E-535C-4310-A76B-AC5488DBA822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Worker", "src\DataMedic.Worker\DataMedic.Worker.csproj", "{04C93BD8-E0E0-41F3-9C7C-B6A4A82BBC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMedic.Infrastructure.Tests", "tests\DataMedic.Infrastructure.Tests\DataMedic.Infrastructure.Tests.csproj", "{F01B64E5-594B-42D0-BB11-56A7F454E343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AC95268-AD64-476C-9FB1-5C3D4A9633DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC95268-AD64-476C-9FB1-5C3D4A9633DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC95268-AD64-476C-9FB1-5C3D4A9633DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC95268-AD64-476C-9FB1-5C3D4A9633DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D80A12-B384-4248-A95C-C36BEB9F27BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D80A12-B384-4248-A95C-C36BEB9F27BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D80A12-B384-4248-A95C-C36BEB9F27BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D80A12-B384-4248-A95C-C36BEB9F27BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7750A7F-47CD-4A54-81D3-83C1015D9093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7750A7F-47CD-4A54-81D3-83C1015D9093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7750A7F-47CD-4A54-81D3-83C1015D9093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7750A7F-47CD-4A54-81D3-83C1015D9093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F021FE29-EDE8-4BCD-AAFE-400C832D4FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F021FE29-EDE8-4BCD-AAFE-400C832D4FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F021FE29-EDE8-4BCD-AAFE-400C832D4FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F021FE29-EDE8-4BCD-AAFE-400C832D4FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{707084AA-97A8-4E83-91D5-4A6089AF0925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707084AA-97A8-4E83-91D5-4A6089AF0925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707084AA-97A8-4E83-91D5-4A6089AF0925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707084AA-97A8-4E83-91D5-4A6089AF0925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F9BEE2-7F90-43F0-AD49-A11AB5CEE6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F9BEE2-7F90-43F0-AD49-A11AB5CEE6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F9BEE2-7F90-43F0-AD49-A11AB5CEE6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F9BEE2-7F90-43F0-AD49-A11AB5CEE6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D640391-855A-48D5-A526-D2742099B93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D640391-855A-48D5-A526-D2742099B93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D640391-855A-48D5-A526-D2742099B93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D640391-855A-48D5-A526-D2742099B93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B8B1DB-44E0-4089-B320-4F5061D46BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B8B1DB-44E0-4089-B320-4F5061D46BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B8B1DB-44E0-4089-B320-4F5061D46BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B8B1DB-44E0-4089-B320-4F5061D46BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CBAFD7-3CCB-47EE-8C2D-78F83D2DAD14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CBAFD7-3CCB-47EE-8C2D-78F83D2DAD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CBAFD7-3CCB-47EE-8C2D-78F83D2DAD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CBAFD7-3CCB-47EE-8C2D-78F83D2DAD14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892A1E5E-535C-4310-A76B-AC5488DBA822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892A1E5E-535C-4310-A76B-AC5488DBA822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892A1E5E-535C-4310-A76B-AC5488DBA822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892A1E5E-535C-4310-A76B-AC5488DBA822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C93BD8-E0E0-41F3-9C7C-B6A4A82BBC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C93BD8-E0E0-41F3-9C7C-B6A4A82BBC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C93BD8-E0E0-41F3-9C7C-B6A4A82BBC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C93BD8-E0E0-41F3-9C7C-B6A4A82BBC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01B64E5-594B-42D0-BB11-56A7F454E343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01B64E5-594B-42D0-BB11-56A7F454E343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01B64E5-594B-42D0-BB11-56A7F454E343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01B64E5-594B-42D0-BB11-56A7F454E343}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AC95268-AD64-476C-9FB1-5C3D4A9633DC} = {2AD486CB-DB9D-4FD9-9A7C-8395AA0B02D9}
+		{E6D80A12-B384-4248-A95C-C36BEB9F27BB} = {2AD486CB-DB9D-4FD9-9A7C-8395AA0B02D9}
+		{B7750A7F-47CD-4A54-81D3-83C1015D9093} = {2AD486CB-DB9D-4FD9-9A7C-8395AA0B02D9}
+		{F021FE29-EDE8-4BCD-AAFE-400C832D4FCD} = {2AD486CB-DB9D-4FD9-9A7C-8395AA0B02D9}
+		{707084AA-97A8-4E83-91D5-4A6089AF0925} = {2AD486CB-DB9D-4FD9-9A7C-8395AA0B02D9}
+		{D3F9BEE2-7F90-43F0-AD49-A11AB5CEE6BA} = {2AD486CB-DB9D-4FD9-9A7C-8395AA0B02D9}
+		{4D640391-855A-48D5-A526-D2742099B93D} = {B507638E-83E1-449F-8D33-BE24D42C1A8D}
+		{A5B8B1DB-44E0-4089-B320-4F5061D46BD7} = {B507638E-83E1-449F-8D33-BE24D42C1A8D}
+		{F5CBAFD7-3CCB-47EE-8C2D-78F83D2DAD14} = {2AD486CB-DB9D-4FD9-9A7C-8395AA0B02D9}
+		{892A1E5E-535C-4310-A76B-AC5488DBA822} = {B507638E-83E1-449F-8D33-BE24D42C1A8D}
+		{04C93BD8-E0E0-41F3-9C7C-B6A4A82BBC8C} = {2AD486CB-DB9D-4FD9-9A7C-8395AA0B02D9}
+		{F01B64E5-594B-42D0-BB11-56A7F454E343} = {B507638E-83E1-449F-8D33-BE24D42C1A8D}
+	EndGlobalSection
+EndGlobal

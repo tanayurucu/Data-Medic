@@ -1,0 +1,9 @@
+PUT https://localhost:7274/api/v1/devices/335e54d5-36c2-41ad-a981-c7da990bd157/components/a43ecb28-ae0a-404c-ac76-ce1d61b2d2b4
+Content-Type: application/json
+
+{
+  "ComponentId": "38b4f542-2b10-44eb-8da3-3c32ba85ea2b",
+  "IpAddress": "1.1.1.1",
+  "OperatingSystemId": "4f27a467-c0a9-4bde-8dd3-fa9594904ec7",
+  "ControlSystemId": "6f042af1-1963-4d57-b2b1-d7112dde8548"
+}

@@ -1,0 +1,15 @@
+POST https://localhost:7274/api/v1/sensors
+Content-Type: application/json
+
+{
+  "HostId": "57ae07f2-32b0-4cb0-9c61-dfeab683d92a",
+  "DeviceComponentId": "69184848-8bb7-40b0-8b72-046b38f82ce0",
+  "Description": "",
+  "DeviceId": "776b82ba-c739-410c-8757-4559606cd557",
+  "SensorDetail": {
+    "Type": 0,
+    "PortainerId": 1,
+    "ContainerId": "dbb510352f88f566653ef31afda165194797d2539519d63c66f335a6cce29df",
+    "ScanPeriodInMinutes": 1
+  }
+}

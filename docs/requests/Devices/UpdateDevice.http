@@ -1,0 +1,10 @@
+PUT https://localhost:7274/api/v1/devices/25669813-403d-4272-a439-88e09a481867
+Content-Type: application/json
+
+{
+  "name": "BAZ1",
+  "description": "",
+  "inventoryNumber": "123",
+  "deviceGroupId": "e904f87f-64f3-44ae-a9ab-6df84cc934e2",
+  "departmentId": "e7be38c3-cdbb-4de6-b157-812ade3f37a2"
+}

@@ -1,0 +1,6 @@
+PUT https://localhost:7274/api/v1/departments/F39C72AC-2BAE-4B1F-B196-6794F847F07D
+Content-Type: application/json
+
+{
+  "Name": "Trial.1"
+}

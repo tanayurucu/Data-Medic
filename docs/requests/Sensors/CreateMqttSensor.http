@@ -1,0 +1,14 @@
+POST https://localhost:7274/api/v1/sensors
+Content-Type: application/json
+
+{
+  "HostId": "aeeec990-d623-4072-a6a0-623e60c22ede",
+  "DeviceComponentId": "B3CB7EE2-59EC-4642-844A-E77289ED9BC6",
+  "Description": "",
+  "DeviceId": "0b2a4bf6-c805-4802-83e2-72569bed3708",
+  "SensorDetail": {
+    "Type": 2,
+    "TopicName": "/opc/da/codesys/test",
+    "TimeToLiveInSeconds": 10,
+  }
+}

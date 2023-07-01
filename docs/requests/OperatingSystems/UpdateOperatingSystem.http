@@ -1,0 +1,6 @@
+PUT https://localhost:7274/api/v1/operating-systems/12c7576f-acfd-49f6-95f1-5b828251f685
+Content-Type: application/json
+
+{
+  "Name": "Windows 11"
+}

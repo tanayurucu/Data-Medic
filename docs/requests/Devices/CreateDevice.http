@@ -1,0 +1,10 @@
+POST https://localhost:7274/api/v1/devices
+Content-Type: application/json
+
+{
+  "name": "BAZ2",
+  "description": "",
+  "inventoryNumber": "1234",
+  "deviceGroupId": "e84ac117-e8f7-4340-83f5-c50678052b0d",
+  "departmentId": "7e4cae97-265b-43af-b4b3-49fc560fcf44"
+}
